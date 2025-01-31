@@ -1,0 +1,27 @@
+.cotizacion-container {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.cotizacion-container h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.cotizacion-container p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.cotizacion-container span {
+  font-weight: bold;
+  color: #28a745;
+}
