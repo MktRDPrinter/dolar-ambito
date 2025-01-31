@@ -15,6 +15,16 @@
   </div>
 
   <script src="script.js"></script>
+  <script>
+  function ajustarAltura() {
+    window.parent.postMessage(
+      { height: document.documentElement.scrollHeight },
+      "*"
+    );
+  }
+  window.onload = ajustarAltura;
+  window.onresize = ajustarAltura;
+</script>
 
 </body>
 </html>
