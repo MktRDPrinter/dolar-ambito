@@ -1,5 +1,5 @@
 function obtenerCotizacion() {
-  fetch('https://dolarapi.com/v1/ambito/dolares/oficial')
+  fetch('https://dolarapi.com/v1/dolares/oficial')
     .then(response => response.json())
     .then(data => {
       document.getElementById("compra").textContent = `$${data.compra}`;
